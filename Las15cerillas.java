@@ -4,6 +4,8 @@ public class Las15cerillas {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
+		
+		while (sc.hasnext()){
 
 		int Cerillasquequedan = sc.nextInt();
 		int Cerillasquequitamos = sc.nextInt();
@@ -27,6 +29,7 @@ public class Las15cerillas {
 
 			}else
 				System.out.println("PIERDO");
+		}
 		}
 	}
 }
